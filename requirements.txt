@@ -1,0 +1,2 @@
+# This MVP uses only Python standard-library modules at runtime.
+# Add third-party packages here when upgrading to embedding models or vector databases.

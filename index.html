@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAG 智能技术支持问答助手</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="topbar">
+        <div>
+          <h1>RAG 智能技术支持问答助手</h1>
+          <p>本地知识库检索 + DeepSeek 上下文增强回答</p>
+        </div>
+        <button id="clearBtn" type="button">清空</button>
+      </header>
+
+      <section id="chat" class="chat" aria-live="polite"></section>
+
+      <form id="chatForm" class="composer">
+        <textarea id="userInput" rows="2" placeholder="输入技术支持问题，例如：接口返回 401 怎么办？"></textarea>
+        <button id="sendBtn" type="submit">发送</button>
+      </form>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
